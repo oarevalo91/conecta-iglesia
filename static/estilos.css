@@ -1,0 +1,16 @@
+*{box-sizing:border-box}body{margin:0;background:#f4f6fa;color:#172c42;font:16px/1.5 system-ui,sans-serif}header{background:#123a49;color:white;padding:24px max(5vw,20px);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.marca{color:white;font-size:24px;text-decoration:none;font-weight:750}main{max-width:1150px;margin:48px auto;padding:0 22px}h1{font-size:clamp(26px,4vw,38px);line-height:1.15;margin:8px 0 18px}.cabecera{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}.etiqueta{color:#23776f;font-size:12px;font-weight:bold;letter-spacing:2px}.panel{background:white;border:1px solid #dae2eb;padding:28px;border-radius:16px;margin:28px 0;box-shadow:0 8px 28px #123a4908}.boton,button{display:inline-block;background:#17695f;color:white;border:0;border-radius:8px;padding:12px 19px;text-decoration:none;font:inherit;cursor:pointer}a{color:#146d72}input{font:inherit;border:1px solid #9eafbc;border-radius:7px;padding:11px;max-width:100%;width:100%}input:focus{outline:3px solid #a7d8d2}label{display:block;font-weight:600;margin-bottom:7px}.busqueda{margin-top:24px}.busqueda>div{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.busqueda input{width:330px}.tabla{overflow:auto}table{border-collapse:collapse;width:100%;min-width:700px}th,td{text-align:left;border-bottom:1px solid #e7ecf1;padding:17px 12px;vertical-align:top}th{font-size:13px;background:#f5f8fa}td a{margin-right:10px}.peligro,.error{color:#a32a39}.rojo{background:#a32a39}.aviso{background:#dff3e9;padding:16px;border-radius:8px}.formulario{max-width:650px}.campo{margin-bottom:20px}.formulario input[type=submit]{width:auto}.error{font-size:14px}.vacio{padding:30px 0;color:#586d80}footer{text-align:center;padding:32px;color:#586d80;font-size:14px}@media(max-width:500px){main{margin-top:28px}.panel{padding:18px}header span{font-size:13px}}
+
+select{font:inherit;background:white;border:1px solid #9eafbc;border-radius:7px;padding:11px;width:100%;max-width:100%}select:focus{outline:3px solid #a7d8d2}td{overflow-wrap:anywhere}
+
+/* Ampliar la columna del nombre */
+th:nth-child(1),
+td:nth-child(1) {
+    min-width: 240px;
+}
+
+/* Ampliar la columna del teléfono */
+th:nth-child(2),
+td:nth-child(2) {
+    min-width: 170px;
+    white-space: nowrap;
+}
